@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+            {%block header%}
+<div class="container">
+                <div class="brand"><a href="http://127.0.0.1:8080"></a> </div>
+                <nav>
+                    <ul class="menu">
+                        <li><a href="http://127.0.0.1:8080/about">О нас</a></li>
+                        <li><a href="http://127.0.0.1:8080/contact">Контакты</a></li>
+                        <li><a href="#">Вход</a></li>
+                    </ul>
+                </nav>
+            </div>
+{% endblock %}
+
+{%block bread_crumbs%}
+<ul id="breadcrumbs-two">
+		<li><a href="http://127.0.0.1:8080/">Главная</a></li>
+    <li><a href="http://127.0.0.1:8080/kulikovo_pole">Куликово поле</a></li>
+		<li><a href="" class="current">Адрес </a></li>
+	</ul>
+{% endblock %}
+            {%block picture%}
+  <div class="jumbotron" style="background-image: url(static/img/kp1.jpg)">
+            <div class="container">
+                <h1>Куликово поле</h1>
+            </div>
+  </div>
+{% endblock %}
+
+            {%block services%}
+<div class="container">
+    <p>МЕМОРИАЛ НА КРАСНОМ ХОЛМЕ
+Тульская область, Куркинский район,
+GPS: 53.606072, 38.671801
+Телефон: +7 (48743) 3-12-44
+Мемориал открыт для посещений в любое время</p>
+            </div>
+{% endblock %}
+
+

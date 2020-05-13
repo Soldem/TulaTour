@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+            {%block header%}
+<div class="container">
+                <div class="brand"><a href="http://127.0.0.1:8080"></a> </div>
+                <nav>
+                    <ul class="menu">
+                        <li><a href="http://127.0.0.1:8080/about">О нас</a></li>
+                        <li><a href="http://127.0.0.1:8080/contact">Контакты</a></li>
+                        <li><a href="#">Вход</a></li>
+                    </ul>
+                </nav>
+            </div>
+{% endblock %}
+
+{%block bread_crumbs%}
+<ul id="breadcrumbs-two">
+		<li><a href="http://127.0.0.1:8080/">Главная</a></li>
+        <li><a href="http://127.0.0.1:8080/jasnaya_polyana">Ясная Поляна</a></li>
+		<li><a href="" class="current">Адрес </a></li>
+	</ul>
+{% endblock %}
+
+            {%block picture%}
+  <div class="jumbotron" style="background-image: url(static/img/jasnaya_polyana.1.jpg)">
+            <div class="container">
+                <h1>Ясная поляна</h1>
+            </div>
+  </div>
+{% endblock %}
+
+            {%block services%}
+<div class="container">
+    <p>ремя работы
+9:00 — 17:00
+Адрес
+301214, Россия, Тульская область, Щекинский район, п/о Ясная Поляна,
+музей-усадьба Л. Н. Толстого «Ясная Поляна»
+Телефон/факс
++7 (4872) 50-29-32
++7 (48751) 76-1-18
+</p>
+            </div>
+{% endblock %}
