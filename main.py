@@ -97,7 +97,7 @@ def return_kulikovo_pole_addres():
 
 def main():
     db_session.global_init("db/blogs.sqlite")
-    app.run(port=8080, host='127.0.0.1')
+    app.run()
 
 
 @app.route('/login', methods=['GET', 'POST'])
