@@ -106,7 +106,7 @@ def login():
     form = LoginForm()
     if form.validate_on_submit():
         session = db_session.create_session()
-        user = session.query(users.User).filter(users.User.email1 == form.email.data).first()
+        user = session.query(users.User).filter(users.User.email == form.email.data).first()
         if user and user.check_password(form.password.data):
             login_user(user, remember=form.remember_me.data)
             return redirect("index.0")
