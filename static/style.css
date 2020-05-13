@@ -30,7 +30,7 @@ margin: 0 auto;
 }
 
 .container {
-width: 90%;
+width: 0%;
 max-width: 100%;
 margin: 0 auto;
 }
@@ -145,8 +145,8 @@ margin-top: 100px;
 
 
 .services .container{
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
     float: left;
     width: auto;
 }
