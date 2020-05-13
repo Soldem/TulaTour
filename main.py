@@ -7,6 +7,7 @@ from werkzeug.utils import redirect
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'yandexlyceum_secret_key'
+db_session.global_init("db/blogs.sqlite")
 
 login_manager = LoginManager()
 login_manager.init_app(app)
