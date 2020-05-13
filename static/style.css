@@ -23,15 +23,14 @@ h3{
 color: #282828;
 font-size: 26px;
 }
-.container{
-width: 90%;
-max-width: 100%;
-}
-
 .container {
 width: 90%;
 max-width: 100%;
 margin: 0 auto;
+}
+
+.container .service{
+text-align: center;
 }
 
 .brand{
