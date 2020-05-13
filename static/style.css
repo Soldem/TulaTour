@@ -1,0 +1,359 @@
+/* General */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+background: linear-gradient(to bottom, #e6f3ff, #80c1ff);
+}
+p {
+font-size: 19px;
+color: black;
+line-height: 1.6;
+text-align: center;
+}
+h1{
+color: rgb(255, 255, 100);
+margin-top: 130px;
+font-size: 40px;
+text-align: center;
+}
+h2{
+color: #282828;
+font-size: 28px;
+}
+h3{
+color: #282828;
+font-size: 26px;
+}
+.container{
+width: 90%;
+max-width: 100%;
+margin: 0 auto;
+}
+
+.container {
+width: 90%;
+max-width: 100%;
+margin: 0 auto;
+}
+
+.brand{
+font-size: 50px; /*вставить картинку с логотипом с помощью background-image*/
+}
+.menu{
+font-size: 16px;
+padding-left: 0;
+margin-top: 0;
+margin-bottom: 0;
+}
+.menu li{
+    float: left;
+    font-size: 16px;
+    list-style: none;
+
+}
+
+.menu li a{
+    text-decoration: none;
+}
+
+/* Header */
+
+header{
+background-color: #fff;
+/*background-image: url(/static/img/header.jpg);*/
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+header .brand{
+text-align: center;
+font-family: Arial;
+float: left;
+font-weight: 700; /* Жирное начертание */
+margin-top: 40px;
+margin-bottom: 30px;
+}
+
+header .brand a{
+color: #002db3;
+text-decoration: none;
+}
+
+header .menu{
+float: right;
+margin-top: 50px;
+margin-bottom: 30px;
+}
+
+header .menu li{
+padding-left: 20px;
+}
+ header .menu li a{
+ color: black;
+ }
+
+
+ .jumbotron {
+    text-align: center;
+    background-image: url(img/Tula_1.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    min-height: 150px;
+    clear: both;
+}
+
+ .jumbotron.1 {
+    background-image: url(img/login_fon.jpg);
+    background-size: cover;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    min-height: 150px;
+
+    text-align: center;
+    clear: both;
+}
+/* Services */
+
+.services .service {
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    width: 600px;
+}
+
+.services .container .service {
+text-align: center;
+    float: left;
+}
+
+.services .container p{
+text-align: center;
+margin-top: 100px;
+}
+
+
+.services .container{
+    margin-left: 50px;
+    margin-right: 50px;
+    float: left;
+    width: auto;
+}
+
+.services .container h2{
+font-size: 35px;
+}
+
+.container .service p{
+text-align: center;
+}
+
+.services .service h2{
+text-align: center;
+}
+
+.services .service p{
+text-align: center;
+width: 600px;
+}
+.services {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.post a{
+    text-decoration: none;
+}
+.post h3{
+color:red;
+}
+
+/* Blog */
+
+.blog {
+    clear: both;
+     padding-top: 50px;
+}
+
+.blog .container_1{
+padding-top: 300px;
+padding-bottom: 350px;
+background-color: #cee6fe;
+background-image: url(img/login_fon.jpg);
+background-position: center; /* Положение фона */
+background-repeat: no-repeat;
+text-align: center;
+color: #000000;
+font-size: 20px;
+}
+
+.blog .container_2{
+text-align: center;
+}
+
+
+
+.blog .container_1 p{
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+.blog .container{
+width: 65%;
+text-align: center;
+ background-color:  #f2f2d9;
+ padding-bottom: 50px;
+}
+.blog h2 {
+padding-top: 30px;
+text-align: center;
+}
+.blog .post {
+    padding-top: 30px;
+    display: inline-block;
+    clear: both;
+}
+.blog .post img {
+    float: left;
+    margin-right: 30px;
+}
+.blog img{
+margin-left: 50px;
+}
+
+/* Footer */
+
+footer {
+    clear: both;
+    margin-top: 160px;
+    padding-top: 55px;
+    padding-bottom: 75px;
+    text-align: center;
+    background-color: #003d99;
+}
+footer .brand {
+    color: #cce0ff;
+    float: left;
+    padding-bottom: 0px;
+}
+footer .brand a{
+text-decoration: none;
+color: #cce0ff;
+padding-bottom: 35px;
+}
+footer .menu li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+footer .menu li a {
+   color: #cce0ff;
+}
+footer .menu {
+    display: inline-block;
+    margin-top: 23px;
+     margin-left: 80px;
+     float: left;
+}
+footer .copyright {
+    font-size: 12px;
+    margin-top: 23px;
+    color: #eee;
+    float: right;
+}
+footer p{
+ margin-top: 10px;
+ padding-top: 0px;
+}
+
+.contact {
+    font-size: 16px;
+        color:blue;
+}
+
+/* Search */
+
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  overflow: hidden;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+nav a:hover {
+  background-color: #8bc34a;
+}
+
+nav a.active {
+  background-color: #8bc34a;
+  color: white;
+}
+
+nav .search-container {
+  margin-left: 150px;
+  margin-top: 50px;
+  float: right;
+}
+
+nav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+nav .search-container button {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #8bc34a;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+nav .search-container button:hover {
+  background: #3366cc;
+}
+
+@media screen and (max-width: 600px) {
+  nav .search-container {
+    float: none;
+  }
+  nav a, nav input[type=text], nav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  nav input[type=text] {
+    border: 1px solid #689f38;
+  }
+}
