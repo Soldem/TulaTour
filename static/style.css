@@ -122,21 +122,23 @@ padding-left: 20px;
 /* Services */
 
 .services .service {
+    text-align: center;
     float: left;
-    padding-left: 15px;
-    padding-right: 15px;
     margin-top: 30px;
     margin-bottom: 50px;
     margin-right: 30px;
     margin-left: 30px;
     box-sizing: border-box;
-    text-align: center;
-    width: 450px;
+    width: 500px;
 }
 
-.services .container .service {
+.services .container .service{
 text-align: center;
-    float: left;
+}
+
+.services .container .service p{
+margin-left: 125px;
+text-align: center;
 }
 
 .services .container p{
@@ -151,12 +153,17 @@ padding-bottom: 30px;
     text-align: center;
     margin-left: 30px;
     margin-right: 30px;
-    float: left;
-    width: auto;
+    width: 100%;
 }
 
 .services .container h2{
+text-align: center;
 font-size: 35px;
+}
+
+.services .container .service img{
+width: 150px;
+height: 100px;
 }
 
 .container .service p{
@@ -169,7 +176,7 @@ text-align: center;
 
 .services .service p{
 text-align: center;
-width: 400px;
+width: 250px;
 }
 .services {
     padding-top: 50px;
